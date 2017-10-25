@@ -1,0 +1,110 @@
+﻿/* Stylesheet for Marathon Match */
+
+body {
+  font-family: Arial, sans-serif;
+/*  font-size: 12pt; */
+  background-color: white;
+  color: black;
+}
+
+th, td {
+  font-family: Arial, sans-serif;
+/*  font-size: 12pt; */
+  color: black;
+}
+
+.menu {
+  white-space: nowrap;
+  text-align: center;
+}
+
+a { color: blue; }
+a:hover { color: #c000ff; }
+.menu a { font-weight: bold; text-decoration: none; color: black; }
+.menu a:hover { text-decoration: none; color: #feba4b; }
+
+th.kimborder {
+  font-weight: bold; 
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: #EEEEEE;
+  border: 1px solid #BBBBBB;
+}
+
+td.kimborder {
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: #FAFAFA;
+  border: 1px solid #DDDDDD;
+}
+
+hr { border-style: solid; color: black; }
+
+h1, h2, h3 { font-family: Arial, sans-serif; color: black; }
+h3 { font-size: 100%; color: #00008b; }
+
+.error { color: red; }
+
+.wframe { border: 1px solid black; }
+.whead  { background-color: #feba4b; }
+.wbody  { background-color: #eef0f2; border-top: 1px solid black; padding-left: 8px; padding-right: 8px; }
+
+.smaller, .smaller td, .smaller th { font-size: small; }
+
+.gray { color: #606060; }
+.kimgray { color: #E0E0E0; font-size: 8pt; }
+
+table.submissions { border-collapse: collapse; }
+.submissions td { border: 1px solid black; }
+.submissions th { border: 1px solid black; font-size: small; }
+.failedsub td { background-color: #ffeeee; }
+.activesub td { background-color: #eeffee; }
+
+table.empty { display:none; }
+table.moves { border-collapse: collapse; }
+.moves td, .moves th { border: 1px solid gray; }
+
+table.gameboard { border: 1px solid black; border-collapse: separate; }
+table.gameboardnrs { border: none; border-collapse: collapse; }
+.gameboard td {
+/*   margin: 0px; */
+  border: 1px solid black;
+  font-family: monospace;
+  font-size: 13pt;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+.gameboard td.pts {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+}
+.gameboardnrs td {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  font-family: sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  vertical-align: middle;
+}
+.gameboard td.t { background-color: #f0fff0; border-top: 1px solid #f0fff0; }
+.gameboard td.b { background-color: #f0fff0; border-bottom: 1px solid #f0fff0; }
+.gameboard td.l { background-color: #f0fff0; border-left: 1px solid #f0fff0; }
+.gameboard td.r { background-color: #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.tb { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-bottom: 1px solid #f0fff0; }
+.gameboard td.lr { background-color: #f0fff0; border-left: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.tl { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-left: 1px solid #f0fff0; }
+.gameboard td.tr { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.bl { background-color: #f0fff0; border-bottom: 1px solid #f0fff0; border-left: 1px solid #f0fff0; }
+.gameboard td.br { background-color: #f0fff0; border-bottom: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.tbl { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-bottom: 1px solid #f0fff0; border-left: 1px solid #f0fff0; }
+.gameboard td.tbr { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-bottom: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.tlr { background-color: #f0fff0; border-top: 1px solid #f0fff0; border-left: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.blr { background-color: #f0fff0; border-bottom: 1px solid #f0fff0; border-left: 1px solid #f0fff0; border-right: 1px solid #f0fff0; }
+.gameboard td.tblr { background-color: #f0fff0; border: 1px solid #f0fff0; }
+.gameboard td.empty { color: #f4f4f4; font-weight: normal; }
+.gameboard td i { font-style: normal; color: #c00000; }
+.gameboard td.empty i { font-style: normal; color: #ffd0d0; }
+
